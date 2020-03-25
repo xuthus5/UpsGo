@@ -1,0 +1,23 @@
+environments:
+  # 项目名称
+  project_name: UpsGo
+  # 是否开启调试输出
+  debug: true
+  # 服务地址端口配置
+  server: 0.0.0.0:7125
+  # 用户配置项
+  user:
+    # 前端登录用户名
+    username: root
+    # 用户密码
+    password: root
+    # token 前端验证用
+    token: afqoIZRsCt9nlPO4JPpQQIqCMw4d5ojM
+  # ups服务连接信息
+  ups:
+    # 又拍云对象存储 服务名称
+    Bucket: my-server
+    # 授权的操作员名称
+    Operator: root
+    # 授权的操作员密码
+    Password: afqoIZRsCt9nlPO4JPpQQIqCMw4d5ojM
