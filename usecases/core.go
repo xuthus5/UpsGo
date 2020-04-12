@@ -115,7 +115,7 @@ func (this *Core) List(ctx *gin.Context) (int, *List) {
 
 	return StatusOK, &List{
 		Code:    StatusOK,
-		Message: "ok",
+		Message: conf.Ups.Domain,
 		Data:    list,
 		Count:   len(list),
 	}

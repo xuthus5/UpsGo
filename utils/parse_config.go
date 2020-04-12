@@ -34,6 +34,7 @@ type Ups struct {
 	Bucket   string `yaml:"Bucket"`   //服务名称
 	Operator string `yaml:"Operator"` //权的操作员名称
 	Password string `yaml:"Password"` //授权的操作员密码
+	Domain   string `yaml:"domain"`   //加速域名
 }
 
 // conf 是一个全局的配置信息实例 项目运行只读取一次 是一个单例
